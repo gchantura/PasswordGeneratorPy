@@ -16,6 +16,6 @@ temp = random.sample(all, length)
 password = "".join(temp)
 
 all = string.ascii_letters + string.digits + string.punctuation
-password="".join(random.sample(all, length))
+password = "".join(random.sample(all, length))
 
 print(password)
