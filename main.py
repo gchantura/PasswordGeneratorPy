@@ -1,7 +1,7 @@
 import random
 import string
 
-print('hello, Welcome to Password generator!')
+print('Hello, Welcome to Password generator!')
 
 length = int(input('\nEnter the length of password: '))
 
@@ -18,4 +18,6 @@ password = "".join(temp)
 all = string.ascii_letters + string.digits + string.punctuation
 password = "".join(random.sample(all, length))
 
-print(password)
+strLength = str(length)
+
+print('You Choose length: ' + strLength + ' password Generated: ' + password)
